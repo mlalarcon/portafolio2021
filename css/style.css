@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+header{
+    width: 100%;
+}
+
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+h3{
+    color: #343a40!important;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+h6{
+    color: #343a40!important;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+.carousel-inner #p-carrusel{
+    color: #fff;
+}
+
+#contactame{
+    color: #343a40!important;
+    text-align: center;
+}
+
+body{
+    font-family: 'Chilanka', cursive;
+}
+
+body{
+    background: url(../img/fondo-8.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center;  
+}
+header nav #logop{
+    background: url(../img/logo-pf-8.png) no-repeat;
+    color: transparent !important;
+    width: 211px;
+}
+
+.w-button #volador{
+    background: url(../img/volador.png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+
+header nav .container .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header nav .navbar-brand{
+    max-width: 350px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.navbar-toggler .material-icons{
+    color: #A286AF;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #A286AF;
+}
+
+#Soyyo .container h3{
+    color: #343a40!important;
+}
+
+#Soyyo #cardsoy{
+    border-radius: 20px;
+    transition: .4s;
+    background: transparent;
+}
+
+#Soyyo #cardsoy:hover{
+    transform: scale(0.9);
+}
+
+#Soyyo #cardsoy .card-img{
+    border-radius: 20px;
+}
+
+
+#Habilidades .progress{
+    margin-bottom: 25px;
+    height: 25px;
+}
+
+#Habilidades .progress #barra1{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra2{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra3{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra4{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra5{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra6{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra7{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Habilidades .progress #barra8{
+    background-color: #A286AF;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+#Experiencia .card-mb-3{
+    background: transparent;
+}
+
+#Estudios .card a img{
+    max-width: 32px;
+    max-height: 32px;
+}
+
+#Estudios #estudiostxt{
+    color: white;
+}
+
+#card-estudio{
+    background: #A286AF;
+    transition: .4s;
+}
+
+#card-estudio:hover{
+    transform: scale(0.9);
+    background: #343a40;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #A286AF;
+    border-color: #9c7dab;
+    border-radius: 20px;
+    padding-top: 9px;
+    margin-bottom: 50px;
+    transition: .4s;
+}
+
+.btn-primary:hover{
+    background-color: #343a40;
+    border-color: #292c30;
+    transform: scale(1.1);
+}
+
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1;
+    color: #A286AF;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #9c7dab;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+
+footer{
+    background: #343a40!important;
+    padding: 20px 0;
+}
+
+
+footer #logofo{
+    background: url(../img/logo-pf-8.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+
+footer #instagram{
+    background: url(../img/instagram.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+
+footer #facebook{
+    background: url(../img/facebook.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+footer #whatsapp{
+    background: url(../img/whatsapp.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+footer #linkedin{
+    background: url(../img/linkedin.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+
+footer #footerp{
+    color: white;
+}
+
+.modal-footer #lopo{
+    background: url(../img/logo-pf-8.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+
+/* TEMAS */
+#btn-elemento{
+    background: #343a40;
+    color: #fff;
+    position: fixed;
+    z-index: 11;
+    top: 236px;
+    right: -37px;
+    padding: 8px 31px;
+    transform: rotate(-90deg);
+    transition: .4s;
+    outline: none;
+}
+
+#btn-elemento.active{
+    right: 167px;
+    transition: .4s;
+}
+
+#cont-color{
+    background: #fff;
+    position: fixed;
+    z-index: 11;
+    top: 201px;
+    right: -205px;
+    padding: 18px;
+    transition: .4s;
+}
+
+#cont-color.active{
+    right: 0;
+    transition: .4s;
+}
+
+#cont-color #amarillo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #d4ac0d;
+    outline: none;
+}
+
+#cont-color #verde{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #16a085;
+    outline: none;
+}
+
+#cont-color #rojo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #c0392b;
+    outline: none;
+}
+
+#cont-color #azul{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #2471a3;
+    outline: none;
+}
+
+#cont-color #naranja{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: #e67e22;
+    outline: none;
+}
+
+#cont-color p{
+    font-size: 16px;
+}
+
+/* Fin body */
+
+/* VARIANTES DE TEMAS */
+/*------------ AMARILLO-------------- */
+#body.amarillo header nav #logop{
+    background: url(../img/logo-amarillo.png) no-repeat;
+}
+#body.amarillo .navbar-dark .navbar-nav .nav-link:hover{
+    color: #d4ac0d;
+}
+#body.amarillo{
+    background: url(../img/bg-amarillo.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center; 
+}
+#body.amarillo .w-button #volador{
+    background: url(../img/wha\ volador.png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+#body.amarillo #Habilidades .progress #barra1{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra2{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra3{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra4{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra5{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra6{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra7{
+    background-color: #d4ac0d;
+}
+#body.amarillo #Habilidades .progress #barra8{
+    background-color: #d4ac0d;
+}
+#body.amarillo #card-estudio{
+    background-color: #d4ac0d;
+}
+#body.amarillo #card-estudio:hover{
+    background: #343a40;
+}
+#body.amarillo .btn-primary{
+    background-color: #d4ac0d;
+    border-color: #c9a30c;
+}
+#body.amarillo .close{
+    color: #c9a30c;
+}
+#body.amarillo footer #logofo{
+    background: url(../img/logo-amarillo.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+#body.amarillo footer #instagram{
+    background: url(../img/inst\ amaril.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.amarillo footer #facebook{
+    background: url(../img/face\ amaril.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.amarillo footer #whatsapp{
+    background: url(../img/what\ amaril.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.amarillo footer #linkedin{
+    background: url(../img/link\ amaril.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.amarillo #lopo{
+    background: url(../img/logo-amarillo.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+
+/*------------ VERDE-------------- */
+#body.verde header nav #logop{
+    background: url(../img/logo-verde.png) no-repeat;
+}
+#body.verde .navbar-dark .navbar-nav .nav-link:hover{
+    color: #16a085;
+}
+#body.verde{
+    background: url(../img/bg-verde.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center; 
+}
+#body.verde .w-button #volador{
+    background: url(../img/volador-verde\ \(1\).png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+#body.verde #Habilidades .progress #barra1{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra2{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra3{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra4{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra5{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra6{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra7{
+    background-color: #16a085;
+}
+#body.verde #Habilidades .progress #barra8{
+    background-color: #16a085;
+}
+#body.verde #card-estudio{
+    background-color: #16a085;
+}
+#body.verde #card-estudio:hover{
+    background: #343a40;
+}
+#body.verde .btn-primary{
+    background-color: #16a085;
+    border-color: #14947a;
+}
+#body.verde .close{
+    color: #14947a;
+}
+#body.verde footer #logofo{
+    background: url(../img/logo-verde.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+#body.verde footer #instagram{
+    background: url(../img/insta-verde.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.verde footer #facebook{
+    background: url(../img/face-verde.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.verde footer #whatsapp{
+    background: url(../img/what-verde.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.verde footer #linkedin{
+    background: url(../img/link-verde.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.verde #lopo{
+    background: url(../img/logo-verde.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+
+/*------------ ROJO-------------- */
+#body.rojo header nav #logop{
+    background: url(../img/logo-rojo.png) no-repeat;
+}
+#body.rojo .navbar-dark .navbar-nav .nav-link:hover{
+    color: #d14c3e;
+}
+#body.rojo{
+    background: url(../img/bg-rojo.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center; 
+}
+#body.rojo .w-button #volador{
+    background: url(../img/volador-rojo.png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+#body.rojo #Habilidades .progress #barra1{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra2{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra3{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra4{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra5{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra6{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra7{
+    background-color: #c0392b;
+}
+#body.rojo #Habilidades .progress #barra8{
+    background-color: #c0392b;
+}
+#body.rojo #card-estudio{
+    background-color: #c0392b;
+}
+#body.rojo #card-estudio:hover{
+    background: #343a40;
+}
+#body.rojo .btn-primary{
+    background-color: #c0392b;
+    border-color: #aa3427;
+}
+#body.rojo .close{
+    color: #c0392b;
+}
+#body.rojo footer #logofo{
+    background: url(../img/logo-rojo.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+#body.rojo footer #instagram{
+    background: url(../img/inst-rojo.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.rojo footer #facebook{
+    background: url(../img/face-rojo.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.rojo footer #whatsapp{
+    background: url(../img/what-rojo.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.rojo footer #linkedin{
+    background: url(../img/link-rojo.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.rojo #lopo{
+    background: url(../img/logo-rojo.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+/*------------ AZUL-------------- */
+#body.azul header nav #logop{
+    background: url(../img/logo-azul.png) no-repeat;
+}
+#body.azul .navbar-dark .navbar-nav .nav-link:hover{
+    color: #3383b8;
+}
+#body.azul{
+    background: url(../img/bg-azul.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center; 
+}
+#body.azul .w-button #volador{
+    background: url(../img/Volador-azul.png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+#body.azul #Habilidades .progress #barra1{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra2{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra3{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra4{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra5{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra6{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra7{
+    background-color: #2471a3;
+}
+#body.azul #Habilidades .progress #barra8{
+    background-color: #2471a3;
+}
+#body.azul #card-estudio{
+    background-color: #2471a3;
+}
+#body.azul #card-estudio:hover{
+    background: #343a40;
+}
+#body.azul .btn-primary{
+    background-color: #2471a3;
+    border-color: #1d5d88;
+}
+#body.azul .close{
+    color: #2471a3;
+}
+#body.azul footer #logofo{
+    background: url(../img/logo-azul.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+#body.azul footer #instagram{
+    background: url(../img/inst-azul.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.azul footer #facebook{
+    background: url(../img/face-azul.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.azul footer #whatsapp{
+    background: url(../img/what-azul.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.azul footer #linkedin{
+    background: url(../img/link-azul.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.azul #lopo{
+    background: url(../img/logo-azul.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+
+/*------------ NARANJA-------------- */
+#body.naranja header nav #logop{
+    background: url(../img/logo-naranja.png) no-repeat;
+}
+#body.naranja .navbar-dark .navbar-nav .nav-link:hover{
+    color: #f08d36;
+}
+#body.naranja{
+    background: url(../img/bg-naranja.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+    background-position-x: center; 
+}
+#body.naranja .w-button #volador{
+    background: url(../img/volador-naranja.png) no-repeat;
+    color: transparent !important;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 50px;
+    bottom: 50px;
+    z-index: 20;
+}
+#body.naranja #Habilidades .progress #barra1{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra2{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra3{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra4{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra5{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra6{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra7{
+    background-color: #e67e22;
+}
+#body.naranja #Habilidades .progress #barra8{
+    background-color: #e67e22;
+}
+#body.naranja #card-estudio{
+    background-color: #e67e22;
+}
+#body.naranja #card-estudio:hover{
+    background: #343a40;
+}
+#body.naranja .btn-primary{
+    background-color: #e67e22;
+    border-color: #bb651a;
+}
+#body.naranja .close{
+    color: #e67e22;
+}
+#body.naranja footer #logofo{
+    background: url(../img/logo-naranja.png) no-repeat;
+    color: transparent !important;
+    padding: 20px 20px;
+    margin-right: auto;
+    background-position: center;
+}
+#body.naranja footer #instagram{
+    background: url(../img/insta-naranja.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.naranja footer #facebook{
+    background: url(../img/face-naranja.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.naranja footer #whatsapp{
+    background: url(../img/what-naranja.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.naranja footer #linkedin{
+    background: url(../img/link-naranja.png) no-repeat;
+    color: transparent !important;
+    padding: 15px 15px;
+    background-position: center;
+}
+#body.naranja #lopo{
+    background: url(../img/logo-naranja.png) no-repeat;
+    color: transparent !important;
+    width: 200px;
+    padding: 20px 20px;
+    background-position: left;
+}
+
+/* codigo responsive tablet */
+@media screen and (max-width:990px) and (min-width:767px){
+    
+    header .navbar{
+        position: fixed;
+        width: 100%;
+        z-index: 20;
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:320px){    
+    #carouselheader .carousel-indicators{
+        display: none;
+    }
+    #carouselheader #controless{
+        display: none;
+    }
+}
+
